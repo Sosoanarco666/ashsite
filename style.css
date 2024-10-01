@@ -2,3 +2,7 @@ body {
     background: rgb(2, 2, 85);
 background: linear-gradient(90deg, rgb(220, 219, 235) 0%, rgb(2, 2, 85) 35%, rgb(220, 219, 235) 100%);
 }
+header {
+    display: flex;
+    justify-content: center;
+}
