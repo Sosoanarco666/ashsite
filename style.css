@@ -1,10 +1,19 @@
 body {
     background: rgb(2, 2, 85);
-background: linear-gradient(90deg, rgb(220, 219, 235) 0%, rgb(2, 2, 85) 35%, rgb(220, 219, 235) 100%);
+    background: linear-gradient(90deg, rgb(220, 219, 235) 0%, rgb(2, 2, 85) 35%, rgb(220, 219, 235) 100%);
 }
+
 header {
 
     display: flex;
     justify-content: center;
-list-style: nome;
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    font-size:40px;
+    gap: 28px;
+    justify-content: center;
+    text-transform: uppercase;
 }
